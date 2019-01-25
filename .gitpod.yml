@@ -1,0 +1,11 @@
+ports:
+- port: 3000
+  onOpen: ignore
+tasks:
+- name: server process
+  init: yarn && yarn build
+  command: >
+    cd examples/hello-world &&
+    yarn install &&
+    node index.js
+- command: curl -s 'http://localhost:3000' -d 'name=FTS'

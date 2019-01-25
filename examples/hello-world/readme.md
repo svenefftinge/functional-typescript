@@ -11,7 +11,11 @@ This is a simple example which transforms a "Hello World" TypeScript function in
 
 ## Running
 
-In order to run this example, you first need to build the top-level `fts` package locally.
+You can try this example in Gitpod, a free online dev environment for GitHub projects.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/transitive-bullshit/functional-typescript)
+
+In order to run this example locally, you first need to build the top-level `fts` package locally.
 
 Then, run:
 
